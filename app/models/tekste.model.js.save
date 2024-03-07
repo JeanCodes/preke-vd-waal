@@ -1,0 +1,34 @@
+module.exports = (sequelize, Sequelize) => {
+  const Tekste = sequelize.define("tekste", {
+    PreekNo: {
+       type: Sequelize.INTEGER,
+       references: {
+          model: 'bybelpreke',
+          key: 'PreekNo',
+       }
+    },
+    P_L_B: {
+      type: Sequelize.STRING
+    },
+    BoekNo: {
+      type: Sequelize.INTEGER
+     PreekNo: {
+       type: Sequelize.INTEGER,
+       references: {
+          model: 'bybelpreke',
+          key: 'PreekNo',
+       }
+    },
+    Hoofstuk: {
+      type: Sequelize.INTEGER
+    },
+    BeginVerse: {
+      type: Sequelize.INTEGER
+    },
+    EindVerse: {
+      type: Sequelize.INTEGER
+    }
+  });
+
+  return Tekste;
+};

@@ -1,0 +1,19 @@
+{
+  "name": "preke-vd-waal",
+  "version": "1.0.0",
+  "description": "Die preke van die Gereformeerde predikant, Dr Cornelis van der Waal",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Jean Francois Pretorius",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "pg": "^8.8.0",
+    "pg-hstore": "^2.3.4",
+    "sequelize": "^6.25.3"
+  }
+}
