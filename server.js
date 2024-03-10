@@ -40,6 +40,8 @@ require("./app/routes/preke_finaal.routes")(app);
 require("./app/routes/boeke.routes")(app);
 require("./app/routes/bronne.routes")(app);
 require("./app/routes/tekste.routes")(app);
+require("./app/routes/digitaalpreke.routes")(app);
+require("./app/routes/preke_indeks.routes")(app);
 // set port, listen for requests
 //console.log('process.env: ${process.env}'
 const PORT = process.env.PORT || 1234;

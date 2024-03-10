@@ -23,5 +23,7 @@ db.bron = require("./bron.model.js")(sequelize, Sequelize);
 db.bybelpreke = require("./bybelpreke.model.js")(sequelize, Sequelize);
 db.bybelboeke = require("./bybelboeke.model.js")(sequelize, Sequelize);
 db.tekste = require("./tekste.model.js")(sequelize, Sequelize);
+db.digitaalpreke = require("./digitaalpreke.model.js")(sequelize, Sequelize);
 db.bybelprekefinaal = require("./bybelpreke_finaal.model.js")(sequelize, Sequelize);
+db.preke_indeks = require("./preke_indeks.model.js")(sequelize, Sequelize);
 module.exports = db;
